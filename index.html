@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Acadêmico</title>
+
+    <!-- CSS Externo para Estilização -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Estilos Internos -->
+    <style>
+        /* Estilo geral do corpo do site */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Cabeçalho com a cor e logotipo da UNIVESP */
+        header {
+            background-color: #d71921; /* Vermelho UNIVESP */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilo da imagem do logotipo */
+        header img {
+            height: 50px;
+        }
+
+        /* Rodapé fixo com as cores e estilo UNIVESP */
+        footer {
+            background-color: #d71921; /* Vermelho UNIVESP */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho do Site -->
+    <header>
+        <!-- Logotipo da UNIVESP -->
+        <img src="https://univesp.br/sites/58f6506869226e9479d38201/theme/images/logo-univesp.png" alt="Logo UNIVESP">
+        <h1 style="color: white;">Dashboard Acadêmico UNIVESP</h1>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main style="text-align: center; padding: 20px;">
+        <h2> Projeto Integrador IV</h2>
+        <p>Previsão de Temperaturas para Região de Sorocaba.</p>
+        <p>Navegue e clique nos dados abaixo.</p>
+
+        <!-- Incorporando o Dashboard do Power BI -->
+        <!-- Substitua <seu_link_embed> pelo link real do dashboard Power BI -->
+        <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiYWM2OGJmNjEtMDZlMi00Y2I5LWI2MjEtMTBmM2NiNzc2Y2Y0IiwidCI6IjM0NWRiODhhLTEzYzgtNDBmZS1iOGZiLTcxNDQxZDQ0NTEwOSJ9" frameborder="0" allowFullScreen="true"></iframe>
+    </main>
+    <!-- Box com os nomes dos membros do projeto -->
+    <section style="background-color: #ffffff; padding: 20px; margin: 20px; border: 1px solid #d71921; text-align: center;">
+        <h5>Projeto Integrador em Computação IV da UNIVESP, dos cursos de graduação em Ciência de Dados e Engenharia da Computação, com análise de dados em escala do Instituto Nacional de Metereologia (INMET) de 2000 a 2025, desenvolvido por:</h5>
+        <p>Alessandra Ghiraldi Ferraz</p>
+        <p>Edgar Clemente Bispo</p>
+        <p>Eduardo Fernandes Bueno</p>
+        <p>Juergen Johann Moura Martins</p>
+        <p>Marcus Vinicius Mathias</p>
+        <p>Rafael Paraizo Bueno</p>
+        <p>Roberto Akiba de Oliveira</p>
+    </section>
+    <!-- Espaço para rolar scroll -->
+    <div style="height: 100px;"></div>
+    <!-- Rodapé do Site -->
+    <footer>
+        <p style="color: white;">&copy; 2024 UNIVESP - Universidade Virtual do Estado de São Paulo</p>
+    </footer>
+
+</body>
+</html>

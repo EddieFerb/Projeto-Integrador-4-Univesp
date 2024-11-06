@@ -1,0 +1,7 @@
+# Ignorar pastas
+myenv/
+exec -l/
+google-cloud-sdk/
+
+# Ignorar arquivos específicos
+google-cloud-sdk-412.0.0-darwin-arm.tar.gz

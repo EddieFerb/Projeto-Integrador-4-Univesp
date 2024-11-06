@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Estilo Geral do Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fundo claro */
+}
+
+/* Estilo para Títulos */
+h1, h2 {
+    text-align: center;
+    color: #333; /* Cinza escuro para contraste */
+    margin-top: 20px;
+}
+
+/* Estilo para o Cabeçalho */
+header {
+    background-color: #d71921; /* Vermelho UNIVESP */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o Rodapé */
+footer {
+    background-color: #d71921; /* Vermelho UNIVESP */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo do Iframe (Dashboard) */
+iframe {
+    display: block;
+    margin: 20px auto; /* Espaçamento acima e centralização */
+    border: 2px solid #d71921; /* Bordas vermelhas UNIVESP */
+    border-radius: 8px;
+    max-width: 90%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+/* Estilo para Parágrafos e Textos de Descrição */
+p {
+    text-align: center;
+    color: #555; /* Texto cinza */
+    font-size: 16px;
+    margin: 10px 0;
+}
