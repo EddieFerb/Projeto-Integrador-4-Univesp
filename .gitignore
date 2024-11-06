@@ -16,3 +16,25 @@ google-cloud-sdk/
 *.log
 *.tar.gz
 *.dylib
+
+# Ignore Azure Data Studio
+.azuredatastudio/
+
+# Ignore Google Cloud SDK
+.config/gcloud/
+
+# Ignore Wondershare Dr.Fone
+.config/Wondershare/
+
+# Ignore Gradle
+.gradle/
+
+# Ignore Jenkins
+.jenkins/
+Library/
+Pictures/
+.azure/
+.config/gcloud/
+.gradle/
+.azuredatastudio/
+.jenkins/
