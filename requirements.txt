@@ -1,6 +1,3 @@
-basedosdados
-ckanapi
-google-cloud-bigquery-storage
 Jinja2
 pandas-gbq
 pyaml
@@ -9,15 +6,12 @@ ruamel.yaml
 tomlkit
 tqdm
 click
-google-cloud-bigquery
 google-cloud-storage
 pandas
 streamlit
 pandas
 numpy
 pillow
-basedosdados==0.1.0
-google-cloud-bigquery
 streamlit
 pandas
 numpy
@@ -25,4 +19,3 @@ streamlit
 altair
 markupsafe==2.0.1
 jinja2<3.1
-google-cloud-bigquery>=3.0.0
