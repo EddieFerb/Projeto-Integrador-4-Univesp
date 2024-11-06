@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-import altair as alt
 from PIL import Image
 
 # Inserindo o logotipo da UNIVESP no centro da página
