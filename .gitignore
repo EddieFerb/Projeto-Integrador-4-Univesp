@@ -5,3 +5,14 @@ google-cloud-sdk/
 
 # Ignorar arquivos específicos
 google-cloud-sdk-412.0.0-darwin-arm.tar.gz
+forward-emitter-437218-m7-41f7ca17f1ac.jsonforward-emitter-437218-m7-41f7ca17f1ac.json
+echo "forward-emitter-437218-m7-41f7ca17f1ac.json" >> .gitignore# Ignorar pastas e arquivos não relacionados ao projeto
+.azuredatastudio/
+.config/
+.gradle/
+.jenkins/
+myenv/
+google-cloud-sdk/
+*.log
+*.tar.gz
+*.dylib
