@@ -2,8 +2,8 @@ from google.cloud import bigquery
 import basedosdados as bd
 
 # Configurações de BigQuery com project_id
-project_id = 'forward-emitter-437218-m7'  # Use o project_id
-billing_id = 'forward-emitter-437218-m7'  # billing_project_id deve ser project_id
+project_id = 'XXXXXXXXXXXXXXXXX'  # Use o project_id
+billing_id = 'XXXXXXXXXXXXXXXXX'  # billing_project_id deve ser project_id
 
 # Inicialize o cliente BigQuery
 client = bigquery.Client(project=project_id)
