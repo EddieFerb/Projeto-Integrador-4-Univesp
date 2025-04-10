@@ -43,4 +43,4 @@ df = bd.read_sql(query=query, billing_project_id=billing_id)
 print(df.head())
 
 # Salvar o DataFrame em um arquivo CSV
-df.to_csv('/Users/eddieferb/Inmet_Sorocaba/dados_inmet_2000_2020.csv', index=False)
+df.to_csv('./Inmet_Sorocaba/dados_inmet_2000_2020.csv', index=False)

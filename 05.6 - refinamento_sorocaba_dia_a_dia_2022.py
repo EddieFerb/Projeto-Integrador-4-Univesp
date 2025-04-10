@@ -67,8 +67,8 @@ previsoes_nn_2022 = previsoes_nn_2022.flatten()
 novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2022
 
 # Caminho para salvar o arquivo
-output_path_csv = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2022_nn.csv'
-output_path_xlsx = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2022_nn.xlsx'
+output_path_csv = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2022_nn.csv'
+output_path_xlsx = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2022_nn.xlsx'
 
 # Salvar previsões em CSV e Excel
 novos_dados.to_csv(output_path_csv, index=False)

@@ -60,7 +60,7 @@
 # novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2025
 
 # # Salvar previsões em um arquivo Excel
-# novos_dados.to_excel('/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx', index=False)
+# novos_dados.to_excel('./Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx', index=False)
 
 # # Visualização das previsões
 # plt.figure(figsize=(10, 6))
@@ -93,9 +93,9 @@
 # df = pd.DataFrame(temp_prevista, columns=['Temperatura Prevista (ºC)'])
 
 # # Salvando o DataFrame como um arquivo Excel na pasta especificada
-# df.to_excel('/Users/eddieferb/Inmet_Sorocaba/temperatura_prevista.xlsx', index=False)
+# df.to_excel('./Inmet_Sorocaba/temperatura_prevista.xlsx', index=False)
 
-# print("Previsões de temperatura salvas com sucesso em '/Users/eddieferb/Inmet_Sorocaba/temperatura_prevista.xlsx'")
+# print("Previsões de temperatura salvas com sucesso em './Inmet_Sorocaba/temperatura_prevista.xlsx'")
 import pandas as pd
 import numpy as np
 import os
@@ -165,14 +165,14 @@ previsoes_nn_2025 = previsoes_nn_2025.flatten()
 novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2025
 
 # Salvar previsões em um arquivo Excel
-novos_dados.to_excel('/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx', index=False)
+novos_dados.to_excel('./Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx', index=False)
 
 # Adicionar previsões ao DataFrame e garantir que a temperatura esteja em ºC
 novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2025
 
 # Caminho para salvar o arquivo
-output_path_csv = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.csv'
-output_path_xlsx = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx'
+output_path_csv = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.csv'
+output_path_xlsx = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2025_nn.xlsx'
 
 # Salvar previsões em CSV e Excel
 novos_dados.to_csv(output_path_csv, index=False)

@@ -66,8 +66,8 @@ novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2025
 novos_dados['Data'] = datas_2025
 
 # Caminho para salvar os arquivos
-output_path_csv = '/Users/eddieferb/Inmet_Sorocaba/05.7 - refinamento_nacional_dia_a_dia_2025_bigquery.csv'
-output_path_xlsx = '/Users/eddieferb/Inmet_Sorocaba/05.7 - refinamento_nacional_dia_a_dia_2025_bigquery.xlsx'
+output_path_csv = './Inmet_Sorocaba/05.7 - refinamento_nacional_dia_a_dia_2025_bigquery.csv'
+output_path_xlsx = './Inmet_Sorocaba/05.7 - refinamento_nacional_dia_a_dia_2025_bigquery.xlsx'
 
 # Salvar previsões em CSV e Excel
 novos_dados.to_csv(output_path_csv, index=False)

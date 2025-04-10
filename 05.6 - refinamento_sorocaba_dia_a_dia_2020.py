@@ -67,11 +67,11 @@ previsoes_nn_2020 = previsoes_nn_2020.flatten()
 novos_dados['Temperatura Prevista (ºC)'] = previsoes_nn_2020
 
 # Salvar previsões em um arquivo Excel
-novos_dados.to_excel('/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.xlsx', index=False)
+novos_dados.to_excel('./Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.xlsx', index=False)
 
 # Caminho para salvar o arquivo
-output_path_csv = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.csv'
-output_path_xlsx = '/Users/eddieferb/Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.xlsx'
+output_path_csv = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.csv'
+output_path_xlsx = './Inmet_Sorocaba/previsoes_temperatura_sorocaba_2020_nn.xlsx'
 
 # Salvar previsões em CSV e Excel
 novos_dados.to_csv(output_path_csv, index=False)
